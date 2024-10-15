@@ -14,14 +14,23 @@ __between precision and recall, making it the most effective solution for this t
 Note: An HTML rendering of the project notebook can be viewed [here](https://addlink.com).
 
 ## Results
-The XGBoost model was selected for its superior performance compared to Logistic Regression and Neural Networks. It achieved a precision of 0.81, recall of 0.84, an F1 score of 0.82, and an AUC-ROC of 0.92 on the test set. These metrics reflect the model’s ability to accurately detect fraudulent transactions while maintaining a balance between minimizing false positives and false negatives.
+The XGBoost model was selected for its superior performance compared to Logistic Regression and Neural Networks. It achieved a precision of 0.81, recall of 0.84, an F1 score of 0.82, 
+and an AUC-ROC of 0.92 on the test set. These metrics reflect the model’s ability to accurately detect fraudulent transactions while maintaining a balance between minimizing false 
+positives and false negatives.
 
 ## Data
 ### Source Data
-This dataset was downloaded from Kartik Shenoy's Kaggle, and is described as "a simulated credit card transaction dataset containing legitimate and fraud transactions from the duration 1st Jan 2019 - 31st Dec 2020. It covers credit cards of 1000 customers doing transactions with a pool of 800 merchants" (Shenoy, 2020). Shenoy notes that he utilized the "Sparkov Data Generation | Github tool created by Brandon Harris" to run the simulation and convert the files to a standard format.
+This dataset was downloaded from Kartik Shenoy's Kaggle, and is described as "a simulated credit card transaction dataset containing legitimate and fraud transactions from the duration 
+1st Jan 2019 - 31st Dec 2020. It covers credit cards of 1000 customers doing transactions with a pool of 800 merchants" (Shenoy, 2020). Shenoy notes that he utilized the 
+"Sparkov Data Generation | Github tool created by Brandon Harris" to run the simulation and convert the files to a standard format.
 
 ### Data Acquisition
-* The transaction data was acquired by downloading the two .csv files from Kaggle at https://www.kaggle.com/datasets/kartik2112/fraud-detection.
+The transaction data was acquired by downloading the two .csv files from Kaggle at https://www.kaggle.com/datasets/kartik2112/fraud-detection. 
+Please note that the data files are not included in this repository due to size constraints but can be downloaded from Kaggle by following those steps.
+
+Additionally, there is a stored_variables.pkl file referenced in the Jupyter notebook. The file contains saved variables such as metrics, SMOTE’d training data, and predictions. 
+It was too large to include in this repository, but if you'd like to reproduce it, the relevant code is included in the notebook, currently commented out for efficiency. 
+Simply uncomment the code, run the necessary sections, and the file will be recreated.
 
 ## Analysis Questions
 1. What is the precision and recall for each model?
@@ -30,7 +39,8 @@ This dataset was downloaded from Kartik Shenoy's Kaggle, and is described as "a 
 4. How can hyperparameter tuning improve the balance between precision and recall?
 
 ## Data Analysis & Visualizations
-Visualizations were created to illustrate the model’s performance, feature importance, and the distribution of fraudulent versus non-fraudulent transactions. These visualizations help provide insights into how the models work and how they can be optimized for future deployment.
+Visualizations were created to illustrate the model’s performance, feature importance, and the distribution of fraudulent versus non-fraudulent transactions. 
+These visualizations help provide insights into how the models work and how they can be optimized for future deployment.
 
 ## Installation
 ### Codes and Resources Used
@@ -60,12 +70,6 @@ Visualizations were created to illustrate the model’s performance, feature imp
 ## Code
 ├── sparkov.ipynb
 
-├── datasets
-
-│   └── fraudTest.csv
-
-│   └── fraudTrain.csv
-
 ├── models
 
 │   └── best_log_clf.pkl
@@ -79,11 +83,6 @@ Visualizations were created to illustrate the model’s performance, feature imp
 ├── LICENSE
 
 └── .gitignore
-
-__Note:__
-The stored_variables.pkl file, which contains saved variables such as metrics, SMOTE’d training data, and predictions, was too large to include in this repository. 
-If you'd like to reproduce it, the relevant code is included in the notebook, currently commented out for efficiency. Simply uncomment the code, run the necessary sections, 
-and the file will be recreated.
 
 ## Authors 
 [@databymir](https://github.com/databymir)
