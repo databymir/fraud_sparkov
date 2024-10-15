@@ -4,7 +4,7 @@ __This project developed an effective fraud detection model by utilizing robust 
 __fraudulent transactions while minimizing disruption to legitimate users. Multiple models were evaluated, with XGBoost ultimately selected for its balance__
 __between precision and recall, making it the most effective solution for this task.__
 
-Note: An HTML rendering of the project notebook can be viewed [here](https://nbviewer.org/github/databymir/fraud_sparkov/blob/main/sparkov.ipynb).
+Note: An HTML rendering of the project notebook can be viewed [here](https://nbviewer.org/github/databymir/fraud_sparkov/blob/main/sparkov.ipynb?flush_cache=true).
 
 # Key Steps
 * __Data Preparation:__ Addressed class imbalance using the SMOTE technique and ensured consistent scaling and transformation of both training and validation datasets.
