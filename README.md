@@ -8,7 +8,7 @@ Note: An HTML rendering of the project notebook can be viewed [here](https://nbv
 
 # Key Steps
 * __Data Preparation:__ Addressed class imbalance using the SMOTE technique and ensured consistent scaling and transformation of both training and validation datasets.
-* __Feature Engineering:__ Created new features, such as transaction risk scores, to enhance the model's predictive capabilities.
+* __Feature Engineering:__ Created new features, such as time-of-day, to enhance the model's predictive capabilities.
 * __Model Selection:__ Three models were evaluated—Logistic Regression, XGBoost, and Neural Networks—with XGBoost emerging as the best performer.
 * __Hyperparameter Tuning:__ Utilized RandomizedSearchCV to optimize model parameters for improved performance.
 * __Model Evaluation:__ Key metrics such as accuracy, precision, recall, F1 score, and AUC-ROC were used to compare model effectiveness. XGBoost achieved the highest precision and recall on unseen data.
