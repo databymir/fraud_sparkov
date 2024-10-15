@@ -1,6 +1,6 @@
 # Fraud Detection: Credit Card Transactions
 
-__This project developed an effective fraud detection model by utilizing advanced machine learning techniques. The model was designed to swiftly identify__
+__This project developed an effective fraud detection model by utilizing robust machine learning techniques. The model was designed to swiftly identify__
 __fraudulent transactions while minimizing disruption to legitimate users. Multiple models were evaluated, with XGBoost ultimately selected for its balance__
 __between precision and recall, making it the most effective solution for this task.__
 
