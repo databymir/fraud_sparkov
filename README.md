@@ -11,7 +11,7 @@ __between precision and recall, making it the most effective solution for this t
 * __Hyperparameter Tuning:__ Utilized RandomizedSearchCV to optimize model parameters for improved performance.
 * __Model Evaluation:__ Key metrics such as accuracy, precision, recall, F1 score, and AUC-ROC were used to compare model effectiveness. XGBoost achieved the highest precision and recall on unseen data.
 
-Note: An HTML rendering of the project notebook can be viewed [here](https://addlink.com).
+Note: An HTML rendering of the project notebook can be viewed [here](https://nbviewer.org/github/databymir/fraud_sparkov/blob/main/sparkov.ipynb).
 
 ## Results
 The XGBoost model was selected for its superior performance compared to Logistic Regression and Neural Networks. It achieved a precision of 0.81, recall of 0.84, an F1 score of 0.82, 
